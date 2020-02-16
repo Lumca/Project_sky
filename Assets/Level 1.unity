@@ -1233,10 +1233,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -17
       objectReference: {fileID: 0}
+    - target: {fileID: 3476844826098488293, guid: 09f48af76db133248b2b91206fd949fe,
+        type: 3}
+      propertyPath: mainEngine
+      value: 
+      objectReference: {fileID: 8300000, guid: 9e79fa40d598c19ad9c3c29daf865b8a, type: 3}
+    - target: {fileID: 3476844826098488293, guid: 09f48af76db133248b2b91206fd949fe,
+        type: 3}
+      propertyPath: rocketCrash
+      value: 
+      objectReference: {fileID: 8300000, guid: c81f54e9ff6db1ede87714922c4cb84e, type: 3}
+    - target: {fileID: 3476844826098488293, guid: 09f48af76db133248b2b91206fd949fe,
+        type: 3}
+      propertyPath: levelLoad
+      value: 
+      objectReference: {fileID: 8300000, guid: e4083f551280f555388f08775ef879dc, type: 3}
     - target: {fileID: 3476844826098488294, guid: 09f48af76db133248b2b91206fd949fe,
         type: 3}
       propertyPath: m_Name
       value: Rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476844826098488298, guid: 09f48af76db133248b2b91206fd949fe,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3476844826393378341, guid: 09f48af76db133248b2b91206fd949fe,
         type: 3}
