@@ -8,7 +8,9 @@ public class Oscillator : MonoBehaviour
     [SerializeField] Vector3 movementVector = new Vector3(10f, 10f, 10f);
     [SerializeField] float period = 2f;
     [SerializeField] [Range(0,1)] float movementFactor; //0 not moving, 1 for fully moving
+    
     Vector3 startingPos;
+    
     void Start()
     {
         startingPos = transform.position;
@@ -17,8 +19,11 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (period <= Mathf.Epsilon)
+        {
+            return;
+        }
         //set movement factor
-
         float cycles = Time.time / period; // grows from 0
 
         const float tau = Mathf.PI * 2f; // cca 6.28
